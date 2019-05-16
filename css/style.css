@@ -1,0 +1,40 @@
+header {
+	background-color: #0074D9;
+	border: 5px solid royalblue;
+}
+body {
+  background-color: #0074D9;
+}
+div {
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  word-wrap: break-word;
+}
+h1 {
+  text-align: center;
+  color: silver;
+}
+h2 {
+	text-align: left;
+	color: blue;
+}
+p {
+	color: lightsteelblue;
+}
+hr {
+	height: 1px;
+	color: silver;
+}
+.column {
+  float: left;
+  width: 44%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
